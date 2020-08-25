@@ -57,9 +57,9 @@ public class Tree {
         return current;
     }
 
-    public int findLeafs(Node N) {
-        Node current = N;
-        if (N == null) {
+    public int findLeafs(Node n) {
+        Node current = n;
+        if (n == null) {
             return 0;
         }
         if ((current.leftChild == null) && (current.rightChild == null)) {
